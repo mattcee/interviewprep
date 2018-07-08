@@ -29,12 +29,9 @@ class WordPermutation: NSObject {
         }
         tempListOfWords.append(word)
         for i in 0..<word.count {
-            print("index count = \(word.count)")
-            print("index i = \(i)")
             let leftSide = getWord(word: word, firstIndex: 0, secondIndex: i)
             let rightSide = getWord(word: word, firstIndex: i+1, secondIndex: word.count)
             let newWord = leftSide + rightSide
-            print("word \(newWord)")
             let words = permutation(word: newWord)
             tempListOfWords.append(contentsOf: words)
         }
