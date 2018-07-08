@@ -17,27 +17,28 @@ class LongestSubArray: NSObject, Runable {
     }
     
     func run() {
-        let longest = longestSquence(index: self.list.count - 1)
+        let longest = longestSquence(indexOne: self.list.count - 2, indexTwo: self.list.count - 1) + 1
         print("longest: \(longest)")
     }
     
     // going to start from the end of the array so we dont have to worry about array out of bounds
-    func longestSquence(index: Int) -> Int {
-        if index < 0 {
+    func longestSquence(indexOne: Int, indexTwo: Int) -> Int {
+        print("indexOne: \(indexOne), indexTwo: \(indexTwo)")
+        if indexOne > indexTwo || indexOne < 0 {
             return 0
         }
         
-        if index == 0 {
-            return 1
+        if indexOne == indexTwo {
+            return 0
         }
         
-        let itemOne = self.list[index - 1]
-        let itemTwo = self.list[index]
+        let itemOne = self.list[indexOne]
+        let itemTwo = self.list[indexTwo]
         if itemOne <= itemTwo {
-            return 1 + longestSquence(index: index - 1)
+            print("adding one")
+            return 1 + longestSquence(indexOne: indexOne - 1, indexTwo: indexOne)
         } else {
-            let longestLength = longestSquence(index: index - 1)
-            return longestLength
+            return longestSquence(indexOne: indexOne - 1, indexTwo: indexOne)
         }
     }
 
