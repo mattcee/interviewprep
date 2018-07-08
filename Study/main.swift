@@ -14,6 +14,13 @@ protocol Testable {
 
 extension Testable {
     
+    func runTest<T: Testable>(input: [T]) {
+        for item in input {
+            item.runTest()
+            printSeperator()
+        }
+    }
+    
     func printSeperator() {
         print(" ")
         print("---------------------------")
