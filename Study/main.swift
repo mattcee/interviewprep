@@ -14,9 +14,9 @@ protocol Testable {
 
 extension Testable {
     
-    func runTest<T: Testable>(input: [T]) {
+    func runTest<T: Runable>(input: [T]) {
         for item in input {
-            item.runTest()
+            item.run()
             printSeperator()
         }
     }
@@ -27,6 +27,10 @@ extension Testable {
         print(" ")
     }
     
+}
+
+protocol Runable {
+    func run()
 }
 
 
@@ -40,5 +44,10 @@ extension Testable {
 //knapsack.runTest()
 
 // Word Permutation
-let wordPermutationTest = WordPermutationTest()
-wordPermutationTest.runTest()
+//let wordPermutationTest = WordPermutationTest()
+//wordPermutationTest.runTest()
+
+
+// Longest SubArray
+let subArray = LongestSubArrayTest()
+subArray.runTest()

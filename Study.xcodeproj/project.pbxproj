@@ -13,6 +13,7 @@
 		251B309B20F1F2E000F42F5E /* WordPermutationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B309A20F1F2E000F42F5E /* WordPermutationTest.swift */; };
 		251B309D20F1F2EC00F42F5E /* WordPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B309C20F1F2EC00F42F5E /* WordPermutation.swift */; };
 		251B30A020F2041A00F42F5E /* LongestSubArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B309F20F2041A00F42F5E /* LongestSubArrayTest.swift */; };
+		251B30A220F204D100F42F5E /* LongestSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B30A120F204D100F42F5E /* LongestSubArray.swift */; };
 		254EE79E20DF88C00071C536 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EE79D20DF88C00071C536 /* main.swift */; };
 		254EE7A520DF88F30071C536 /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EE7A420DF88F30071C536 /* WordSearch.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		251B309A20F1F2E000F42F5E /* WordPermutationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPermutationTest.swift; sourceTree = "<group>"; };
 		251B309C20F1F2EC00F42F5E /* WordPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPermutation.swift; sourceTree = "<group>"; };
 		251B309F20F2041A00F42F5E /* LongestSubArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubArrayTest.swift; sourceTree = "<group>"; };
+		251B30A120F204D100F42F5E /* LongestSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubArray.swift; sourceTree = "<group>"; };
 		254EE79A20DF88C00071C536 /* Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		254EE79D20DF88C00071C536 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		254EE7A420DF88F30071C536 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				251B309F20F2041A00F42F5E /* LongestSubArrayTest.swift */,
+				251B30A120F204D100F42F5E /* LongestSubArray.swift */,
 			);
 			path = "Longest SubArray";
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				254EE79E20DF88C00071C536 /* main.swift in Sources */,
 				251B309D20F1F2EC00F42F5E /* WordPermutation.swift in Sources */,
 				251B309B20F1F2E000F42F5E /* WordPermutationTest.swift in Sources */,
+				251B30A220F204D100F42F5E /* LongestSubArray.swift in Sources */,
 				251B309620EDF60D00F42F5E /* KnapsackTest.swift in Sources */,
 				251B309320EDF5A000F42F5E /* WordSearchMain.swift in Sources */,
 				254EE7A520DF88F30071C536 /* WordSearch.swift in Sources */,
