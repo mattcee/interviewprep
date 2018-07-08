@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251B309320EDF5A000F42F5E /* WordSearchMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B309220EDF5A000F42F5E /* WordSearchMain.swift */; };
+		251B309620EDF60D00F42F5E /* KnapsackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B309520EDF60D00F42F5E /* KnapsackTest.swift */; };
+		251B309820EDF61600F42F5E /* Knapsack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B309720EDF61600F42F5E /* Knapsack.swift */; };
 		254EE79E20DF88C00071C536 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EE79D20DF88C00071C536 /* main.swift */; };
 		254EE7A520DF88F30071C536 /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EE7A420DF88F30071C536 /* WordSearch.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +27,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		251B309220EDF5A000F42F5E /* WordSearchMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchMain.swift; sourceTree = "<group>"; };
+		251B309520EDF60D00F42F5E /* KnapsackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnapsackTest.swift; sourceTree = "<group>"; };
+		251B309720EDF61600F42F5E /* Knapsack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knapsack.swift; sourceTree = "<group>"; };
 		254EE79A20DF88C00071C536 /* Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		254EE79D20DF88C00071C536 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		254EE7A420DF88F30071C536 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
@@ -40,6 +46,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		251B309120EDF57B00F42F5E /* Word Search */ = {
+			isa = PBXGroup;
+			children = (
+				254EE7A420DF88F30071C536 /* WordSearch.swift */,
+				251B309220EDF5A000F42F5E /* WordSearchMain.swift */,
+			);
+			path = "Word Search";
+			sourceTree = "<group>";
+		};
+		251B309420EDF5FD00F42F5E /* knapsack */ = {
+			isa = PBXGroup;
+			children = (
+				251B309520EDF60D00F42F5E /* KnapsackTest.swift */,
+				251B309720EDF61600F42F5E /* Knapsack.swift */,
+			);
+			path = knapsack;
+			sourceTree = "<group>";
+		};
 		254EE79120DF88C00071C536 = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +83,9 @@
 		254EE79C20DF88C00071C536 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				251B309420EDF5FD00F42F5E /* knapsack */,
+				251B309120EDF57B00F42F5E /* Word Search */,
 				254EE79D20DF88C00071C536 /* main.swift */,
-				254EE7A420DF88F30071C536 /* WordSearch.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -122,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251B309820EDF61600F42F5E /* Knapsack.swift in Sources */,
 				254EE79E20DF88C00071C536 /* main.swift in Sources */,
+				251B309620EDF60D00F42F5E /* KnapsackTest.swift in Sources */,
+				251B309320EDF5A000F42F5E /* WordSearchMain.swift in Sources */,
 				254EE7A520DF88F30071C536 /* WordSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

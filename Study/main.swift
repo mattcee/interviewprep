@@ -8,26 +8,12 @@
 
 import Foundation
 
-let groupOfWords: Set<String> = ["one", "cat", "dog", "five"]
-
-let wordSearch = WordSearch(groupOfWords: groupOfWords)
-wordSearch.buildWordDictionary()
-let testOne = wordSearch.checkContains(word: "onecat")
-print(testOne)
-print("-------------")
+// word search
+//let wordSearch = WordSearchMain()
+//wordSearch.runTest()
 
 
-let testTwo = wordSearch.checkContains(word: "onecatcat")
-print(testTwo)
-print("-------------")
+// knapsack problem
 
-
-let testThree = wordSearch.checkContains(word: "onecatdogfive")
-print(testThree)
-print("-------------")
-
-
-let testFoud = wordSearch.checkContains(word: "oneca")
-print(testFoud)
-print("-------------")
-
+let knapsack = KnapsackTest()
+knapsack.runTest()
