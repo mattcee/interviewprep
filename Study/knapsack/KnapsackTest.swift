@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class KnapsackTest: NSObject {
+class KnapsackTest: NSObject, Testable {
     
     func runTest() {
         let cost = [0, 2, 4, 5, 6]

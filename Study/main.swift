@@ -8,12 +8,30 @@
 
 import Foundation
 
+protocol Testable {
+    func runTest()
+}
+
+extension Testable {
+    
+    func printSeperator() {
+        print(" ")
+        print("---------------------------")
+        print(" ")
+    }
+    
+}
+
+
 // word search
 //let wordSearch = WordSearchMain()
 //wordSearch.runTest()
 
 
 // knapsack problem
+//let knapsack = KnapsackTest()
+//knapsack.runTest()
 
-let knapsack = KnapsackTest()
-knapsack.runTest()
+// Word Permutation
+let wordPermutationTest = WordPermutationTest()
+wordPermutationTest.runTest()

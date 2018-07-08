@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Study/knapsack/Knapsack.swift"
-            timestampString = "552469045.967334"
+            timestampString = "552731157.335945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "searchForValueMemorization(index:weight:)"
             landmarkType = "7">
          </BreakpointContent>
