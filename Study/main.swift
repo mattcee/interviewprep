@@ -51,3 +51,8 @@ protocol Runable {
 // Longest SubArray
 let subArray = LongestSubArrayTest()
 subArray.runTest()
+
+
+// heap
+let heapifyTesting = HeapifyTest()
+heapifyTesting.runTest()

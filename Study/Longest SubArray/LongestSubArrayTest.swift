@@ -16,7 +16,7 @@ class LongestSubArrayTest: NSObject, Testable {
             LongestSubArray(list: [1, 2, 3, 5]), // 4
             LongestSubArray(list: [1, 2, 1, 5]), // 3
             LongestSubArray(list: [1, 2, 3, 1, 4, 5, 2]), // 5
-            LongestSubArray(list: [5, 6, 1, 2, 3]),
+            LongestSubArray(list: [5, 6, 1, 2, 3]), // 3
             LongestSubArray(list: [1, 3, 2, 3, 4, 8, 7, 9])
         ]
         runTest(input: testItems)

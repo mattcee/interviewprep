@@ -17,30 +17,35 @@ class LongestSubArray: NSObject, Runable {
     }
     
     func run() {
-        let longest = longestSquence(indexOne: self.list.count - 2, indexTwo: self.list.count - 1) + 1
-        print("longest: \(longest)")
+        var finalResult = 0
+        for i in 0..<self.list.count {
+            let result = longestSquence(indexStart: i, indexEnd: i)
+            print("longest Sequence: \(result)")
+            finalResult = max(result, finalResult)
+            
+        }
+        
+        print("Final longest Sequence: \(finalResult)")
+
     }
     
     // going to start from the end of the array so we dont have to worry about array out of bounds
-    func longestSquence(indexOne: Int, indexTwo: Int) -> Int {
-        print("indexOne: \(indexOne), indexTwo: \(indexTwo)")
-        if indexOne > indexTwo || indexOne < 0 {
+    func longestSquence(indexStart: Int, indexEnd: Int) -> Int {
+        if indexEnd == self.list.count {
             return 0
         }
-        
-        if indexOne == indexTwo {
-            return 0
-        }
-        
-        let itemOne = self.list[indexOne]
-        let itemTwo = self.list[indexTwo]
+        let itemOne = self.list[indexStart]
+        let itemTwo = self.list[indexEnd]
+        var taken = 0
         if itemOne <= itemTwo {
-            print("adding one")
-            return 1 + longestSquence(indexOne: indexOne - 1, indexTwo: indexOne)
-        } else {
-            return longestSquence(indexOne: indexOne - 1, indexTwo: indexOne)
+             taken = 1 + longestSquence(indexStart:indexEnd , indexEnd: indexEnd + 1)
         }
+        let notTaken = longestSquence(indexStart: indexStart, indexEnd: indexEnd + 1)
+        
+        return max(taken, notTaken)
     }
+    
+    
 
 }
 
