@@ -38,7 +38,6 @@ class WordPermutation: NSObject {
         return tempListOfWords
     }
     
-    
     func getWord(word: String, firstIndex: Int, secondIndex: Int) -> String {
         let arrayOfCharacters = Array(word)[firstIndex..<secondIndex]
         return String(arrayOfCharacters)
@@ -59,5 +58,7 @@ a  b
  abc
  ab bc ac
  
+ 
+ // start and end
  
  */

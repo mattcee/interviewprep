@@ -49,10 +49,56 @@ protocol Runable {
 
 
 // Longest SubArray
-let subArray = LongestSubArrayTest()
-subArray.runTest()
+//let subArray = LongestSubArrayTest()
+//subArray.runTest()
 
 
 // heap
-let heapifyTesting = HeapifyTest()
-heapifyTesting.runTest()
+//let heapifyTesting = HeapifyTest()
+//heapifyTesting.runTest()
+
+// Form Number
+
+//let numberTest = FormNumberTest()
+//numberTest.runTest()
+
+
+
+
+// word decoding
+// not wokring
+//
+//let wordDecodingTest = WordDecodingTest()
+//wordDecodingTest.runTest()
+
+
+// Generating sum from array
+
+let sumFromArray = GenerateSumWithArrayTest()
+sumFromArray.runTest()
+
+
+let coinChange = CoinChangeTest()
+coinChange.runTest()
+
+
+
+// coins
+
+//f(0) = 0
+//f(1) = 1
+//f(2) = 1
+//f(3) = 1
+//f(4) = 3
+
+//func coin(n: Int) -> Int {
+//
+//    if n < 5 {
+//        return n
+//    }
+//    
+//    return coin(n: n/2) + coin(n: n/3) + coin(n: n/4)
+//}
+//
+//let result = coin(n: 9)
+//print(result)
