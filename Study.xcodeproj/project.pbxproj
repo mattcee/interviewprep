@@ -24,6 +24,8 @@
 		251B30B620F3337600F42F5E /* GenerateSumWithArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B30B520F3337600F42F5E /* GenerateSumWithArrayTest.swift */; };
 		251B30B920F33DAD00F42F5E /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B30B820F33DAD00F42F5E /* CoinChange.swift */; };
 		251B30BB20F5C9E700F42F5E /* CoinChangeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B30BA20F5C9E700F42F5E /* CoinChangeTest.swift */; };
+		251B30BF20F5CEB400F42F5E /* TreeToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B30BE20F5CEB400F42F5E /* TreeToList.swift */; };
+		251B30C120F5D38100F42F5E /* TreeToListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251B30C020F5D38100F42F5E /* TreeToListTest.swift */; };
 		254EE79E20DF88C00071C536 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EE79D20DF88C00071C536 /* main.swift */; };
 		254EE7A520DF88F30071C536 /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EE7A420DF88F30071C536 /* WordSearch.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		251B30B520F3337600F42F5E /* GenerateSumWithArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateSumWithArrayTest.swift; sourceTree = "<group>"; };
 		251B30B820F33DAD00F42F5E /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		251B30BA20F5C9E700F42F5E /* CoinChangeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChangeTest.swift; sourceTree = "<group>"; };
+		251B30BE20F5CEB400F42F5E /* TreeToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeToList.swift; sourceTree = "<group>"; };
+		251B30C020F5D38100F42F5E /* TreeToListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeToListTest.swift; sourceTree = "<group>"; };
 		254EE79A20DF88C00071C536 /* Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		254EE79D20DF88C00071C536 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		254EE7A420DF88F30071C536 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
@@ -155,6 +159,23 @@
 			path = "Coin Change";
 			sourceTree = "<group>";
 		};
+		251B30BC20F5CE8000F42F5E /* Binrary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				251B30BD20F5CE8C00F42F5E /* Binrary Tree to Linked List */,
+			);
+			path = "Binrary Tree";
+			sourceTree = "<group>";
+		};
+		251B30BD20F5CE8C00F42F5E /* Binrary Tree to Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				251B30BE20F5CEB400F42F5E /* TreeToList.swift */,
+				251B30C020F5D38100F42F5E /* TreeToListTest.swift */,
+			);
+			path = "Binrary Tree to Linked List";
+			sourceTree = "<group>";
+		};
 		254EE79120DF88C00071C536 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +195,7 @@
 		254EE79C20DF88C00071C536 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				251B30BC20F5CE8000F42F5E /* Binrary Tree */,
 				251B30B720F33DA100F42F5E /* Coin Change */,
 				251B30B420F3305A00F42F5E /* Generating Sum From Array */,
 				251B30AF20F3270400F42F5E /* Word Decoding */,
@@ -251,6 +273,7 @@
 				251B30A520F2F10100F42F5E /* Heap.swift in Sources */,
 				251B30A720F2F6AB00F42F5E /* HeapifyTest.swift in Sources */,
 				251B30AE20F326FF00F42F5E /* WordDecoding.swift in Sources */,
+				251B30BF20F5CEB400F42F5E /* TreeToList.swift in Sources */,
 				251B30A020F2041A00F42F5E /* LongestSubArrayTest.swift in Sources */,
 				251B30B620F3337600F42F5E /* GenerateSumWithArrayTest.swift in Sources */,
 				251B30B120F32A1000F42F5E /* WordDecodingTest.swift in Sources */,
@@ -264,6 +287,7 @@
 				251B309620EDF60D00F42F5E /* KnapsackTest.swift in Sources */,
 				251B309320EDF5A000F42F5E /* WordSearchMain.swift in Sources */,
 				254EE7A520DF88F30071C536 /* WordSearch.swift in Sources */,
+				251B30C120F5D38100F42F5E /* TreeToListTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

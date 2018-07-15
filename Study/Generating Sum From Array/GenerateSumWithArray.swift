@@ -33,7 +33,7 @@ class GenerateSumWithArray: NSObject, Runable {
             return true
         }
         
-        return findValue(index:index-1, sum:sum - self.values[index]) || findValue(index:index - 1, sum: sum)
+        return findValue(index:index - 1, sum: sum - self.values[index]) || findValue(index: index - 1, sum: sum)
         
     }
 

@@ -12,7 +12,9 @@ class CoinChangeTest: NSObject, Testable {
     
     func runTest() {
         let items = [
-            CoinChange(coins: [1, 4, 5])
+            CoinChange(coins: [1, 4, 5]),
+            CoinChange(coins: [10, 20])
+
         ]
         
         runTest(input: items)
